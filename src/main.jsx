@@ -6,6 +6,8 @@ import { ThemeProvider, createTheme } from '@mui/material'
 // Pages and Assets
 import App from './App.jsx'
 import Home from './pages/Home.jsx'
+import PersyaratanBerkas from './pages/PersyaratanBerkas.jsx'
+import NotFound from './pages/exceptions/404.jsx'
 import './index.css'
 
 // Router
@@ -19,6 +21,9 @@ import {
 const router = createBrowserRouter(createRoutesFromElements(
   <Route exact path='/' element={<App />}>
     <Route path='/' element={<Home />} />
+    <Route path='/persyaratan-berkas' element={<PersyaratanBerkas />} />
+    <Route path='/about' element={<Home />} />
+    <Route path='*' element={<NotFound />} />
   </Route>
 ))
 

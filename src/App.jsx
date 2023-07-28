@@ -1,16 +1,19 @@
+import { Outlet } from 'react-router-dom';
+
 // Components
 import Navbar from '@/components/Navbar';
-import { Outlet } from 'react-router-dom';
+import Footer from '@/components/Footer';
 
 function App() {
 
   return (
     <>
-      <div className="w-screen container mx-auto">
+      <div className="h-screen container mx-auto">
         <Navbar />
         <div className="main-section px-6 pt-32 pb-12">
           <Outlet />
         </div>
+        <Footer />
       </div>
     </>
   )
