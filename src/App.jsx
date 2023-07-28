@@ -1,5 +1,5 @@
 // Components
-import Navbar from './components/Navbar';
+import Navbar from '@/components/Navbar';
 import { Outlet } from 'react-router-dom';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <>
       <div className="w-screen container mx-auto">
         <Navbar />
-        <div className="main-section px-6 pt-24">
+        <div className="main-section px-6 pt-32 pb-12">
           <Outlet />
         </div>
       </div>
