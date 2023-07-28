@@ -117,19 +117,19 @@ const Home = () => {
                 </div>
             </section>
             <div className="text-center mt-24 font-semibold text-sm md:text-base underline text-gray-400">
-                <button className='underline' onClick={handleOpen}>Cara Penggunaan 🤔</button>
+                <button className='py-1 px-3 outline outline-1 outline-gray-300 rounded-full' onClick={handleOpen}>Cara Penggunaan 🤔</button>
                 <Dialog
                     open={isOPen}
                     onClose={handleClose}
                 >
                     <DialogTitle>
                         <p className="font-semibold">
-                            Cara Penggunaan
+                            Cara Penggunaan 🤔
                         </p>
                     </DialogTitle>
                     <DialogContent>
                         <DialogContentText>
-                            Pilih sistem informasi yang ingin kamu kunjungi di beranda web ini.
+                            Pilih sistem informasi yang ingin kamu kunjungi di beranda web ini. Contact support: <a href="wa.me/6281393789949" className='underline'>@seterangmerawang</a>
                         </DialogContentText>
                     </DialogContent>
                     <DialogActions>
