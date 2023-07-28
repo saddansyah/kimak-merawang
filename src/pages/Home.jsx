@@ -12,8 +12,8 @@ import IconButton from '@mui/material/IconButton';
 import LanguageIcon from '@mui/icons-material/Language';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import YoutubeIcon from '@mui/icons-material/YouTube';
 import EmailIcon from '@mui/icons-material/Email';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 import DescriptionIcon from '@mui/icons-material/Description';
 
 import CustomTooltip from '@/components/CustomTooltip';
@@ -54,11 +54,11 @@ const Home = () => {
         {
             id: 'youtube',
             baseColor: 'bg-red-600',
-            icon: <YoutubeIcon className='text-white' />,
+            icon: <YouTubeIcon className='text-white' />,
             link: 'https://www.youtube.com/@PEMDES_KIMAK'
         },
         {
-            id: 'Email',
+            id: 'email',
             baseColor: 'bg-emerald-600',
             icon: <EmailIcon className='text-white' />,
             link: 'mailto:pemdeskimak@gmail.com'
@@ -80,7 +80,7 @@ const Home = () => {
         <div className="wrapper flex flex-col items-center">
             <section id="head" className='mb-5'>
                 <h1 className="text-black font-semibold text-base text-center leading-none tracking-tight md:leading-normal">Portal Informasi <br /> <span className='font-bold text-4xl gradient-green text-transparent bg-clip-text'>Desa Kimak</span></h1>
-                <p className='my-5 text-gray-400' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, obcaecati.</p>
+                <p className='my-5 text-center text-gray-400' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, obcaecati.</p>
             </section>
             <section id="website" className='mb-12'>
                 <CustomTooltip title={'kimak.bangka.go.id'} >
@@ -117,7 +117,7 @@ const Home = () => {
                 </div>
             </section>
             <div className="text-center mt-24 font-semibold text-sm md:text-base underline text-gray-400">
-                <button className='underline' onClick={handleOpen}>Cara Penggunaan 🛈</button>
+                <button className='underline' onClick={handleOpen}>Cara Penggunaan 🤔</button>
                 <Dialog
                     open={isOPen}
                     onClose={handleClose}
