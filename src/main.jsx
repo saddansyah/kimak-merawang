@@ -20,10 +20,10 @@ import {
 } from "react-router-dom";
 
 const router = createBrowserRouter(createRoutesFromElements(
-  <Route exact path='/' element={<App />}>
-    <Route path='/' element={<Home />} />
-    <Route path='/persyaratan-berkas' element={<PersyaratanBerkas />} />
-    <Route path='/about' element={<About />} />
+  <Route exact path='' element={<App />}>
+    <Route path='' element={<Home />} />
+    <Route path='persyaratan-berkas' element={<PersyaratanBerkas />} />
+    <Route path='about' element={<About />} />
     <Route path='*' element={<NotFound />} />
   </Route>
 ))

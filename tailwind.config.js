@@ -15,9 +15,18 @@ export default {
             transform: 'translateY(-15%)'
           },
         },
+        popup: {
+          '0%': {
+            transform: 'scale(0)',
+          },
+          '100%': {
+            transform: 'scale(1)',
+          },
+        }
       },
       animation: {
-        wiggle: '1s wiggle ease-in-out infinite alternate forwards'
+        wiggle: '1s wiggle ease-in-out infinite alternate forwards',
+        popup: '0.6s popup ease-out'
       }
     },
   },
