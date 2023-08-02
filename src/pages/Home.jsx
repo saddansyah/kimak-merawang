@@ -102,7 +102,7 @@ const Home = () => {
                 <h1 className="text-black font-semibold text-base text-center leading-none tracking-tight md:leading-normal" >Portal Sistem Informasi <br /> <span className='font-bold text-4xl gradient-green text-transparent bg-clip-text'>Desa Kimak</span></h1>
                 <p className='my-5 text-center text-gray-500' >Akses semua layanan digital Desa Kimak dalam satu genggaman 🌐</p>
             </section>
-            <section id="website" className='mb-12' data-aos="fade-up" data-aos-offset="400">
+            <section id="website" className='mb-12' data-aos="fade-up">
                 <CustomTooltip title={'kimak.bangka.go.id'} >
                     <Link target='_blank' rel='noreferrer noopener' to={'http://kimak.bangka.go.id/'}>
                         <div className="rounded-full flex flec-row justify-center items-center space-x-1 py-1 px-3 h- bg-cyan-300 w-fit text-cyan-800 hover:gradient-green hover:text-white hover:shadow-xl transition-all">
