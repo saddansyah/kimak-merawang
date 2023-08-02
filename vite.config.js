@@ -1,10 +1,51 @@
 import { defineConfig } from 'vite'
 import { fileURLToPath, URL } from "node:url";
-import react from '@vitejs/plugin-react'
+import { VitePWA } from 'vite-plugin-pwa';
+import react from '@vitejs/plugin-react';
+
+const manifestPlugin = {
+  registerType: 'prompt',
+  includeAssets: ['logoKKN.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
+  manifest: {
+    name: 'Portal Sistem Informasi Desa Kimak',
+    short_name: 'Portal Sistem Informasi Desa Kimak',
+    description: 'Sebuah portal untuk integrasi berbagai sistem informasi di Desa Kimak',
+    icons: [
+      {
+        src: '/android-chrome-192x192.png',
+        sizes: '192x192',
+        src: 'image/png'
+      },
+      {
+        src: '/android-chrome-512x512.png',
+        sizes: '512x512',
+        src: 'image/png'
+      },
+      {
+        src: '/apple-touch-icon.png',
+        sizes: '180x180',
+        src: 'image/png',
+        purpose: 'apple touch icon'
+      },
+      {
+        src: '/maskable-icon.png',
+        sizes: '225x225',
+        src: 'image/png',
+        purpose: 'any maskable'
+      },
+    ],
+    theme_color: '#059669',
+    background_color: '#ffffff',
+    display: 'standalone',
+    scope: '/',
+    start_url: '/',
+    orientation: 'portrait'
+  }
+}
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), VitePWA(manifestPlugin)],
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)), // import mapping using @

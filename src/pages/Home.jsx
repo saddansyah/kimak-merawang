@@ -99,7 +99,7 @@ const Home = () => {
             <img src={citySvg} ref={cityImg} alt="Ilustrasi Kota" className='h-[35vh] scale-125 w-full -z-30 md:hidden -bottom-20 fixed bg-gradient-to-t from-emerald-800 bg-clip-padding opacity-0 transition-transform' />
             <img src={mapSvg} alt="Peta Desa Kimak" className='absolute h-[35vh] md:h-[70vh] -z-20 top-24 opacity-30' />
             <section id="head" className='mb-5' data-aos="fade-up">
-                <h1 className="text-black font-semibold text-base text-center leading-none tracking-tight md:leading-normal" >Portal Informasi <br /> <span className='font-bold text-4xl gradient-green text-transparent bg-clip-text'>Desa Kimak</span></h1>
+                <h1 className="text-black font-semibold text-base text-center leading-none tracking-tight md:leading-normal" >Portal Sistem Informasi <br /> <span className='font-bold text-4xl gradient-green text-transparent bg-clip-text'>Desa Kimak</span></h1>
                 <p className='my-5 text-center text-gray-500' >Akses semua layanan digital Desa Kimak dalam satu genggaman 🌐</p>
             </section>
             <section id="website" className='mb-12' data-aos="fade-up" data-aos-offset="400">

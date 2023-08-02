@@ -38,7 +38,6 @@ const Navbar = () => {
     }
 
     // Dropdown List
-
     const navbar = {
         home: {
             value: 'home',
