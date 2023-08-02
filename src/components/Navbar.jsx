@@ -54,9 +54,11 @@ const Navbar = () => {
     const [change, setChange] = useState(true);
 
     useEffect(() => {
-        setInterval(() => {
+        const interval = setInterval(() => {
             setChange(!change);
         }, 5000);
+
+        return () => clearInterval(interval);
     }, [change])
 
     return (
