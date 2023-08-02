@@ -94,11 +94,10 @@ const Home = () => {
     }, [])
 
 
-
     return (<>
         <div className="wrapper flex flex-col items-center">
             <img src={citySvg} ref={cityImg} alt="Ilustrasi Kota" className='h-[35vh] scale-125 w-full -z-30 md:hidden -bottom-20 fixed bg-gradient-to-t from-emerald-800 bg-clip-padding opacity-0 transition-transform' />
-            <img src={mapSvg} alt="Peta Desa Kimak" className='absolute h-[35vh] md:h-[70vh] -z-20 top-24 opacity-30'/>
+            <img src={mapSvg} alt="Peta Desa Kimak" className='absolute h-[35vh] md:h-[70vh] -z-20 top-24 opacity-30' />
             <section id="head" className='mb-5' data-aos="fade-up">
                 <h1 className="text-black font-semibold text-base text-center leading-none tracking-tight md:leading-normal" >Portal Informasi <br /> <span className='font-bold text-4xl gradient-green text-transparent bg-clip-text'>Desa Kimak</span></h1>
                 <p className='my-5 text-center text-gray-500' >Akses semua layanan digital Desa Kimak dalam satu genggaman 🌐</p>
@@ -116,7 +115,7 @@ const Home = () => {
             <main id="cards" className='grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12' data-aos="fade-up">
                 {links && links.map((item, i) => {
                     return (
-                        <Card key={i} data={item}/>
+                        <Card key={i} data={item} />
                     )
                 })}
             </main>
@@ -150,7 +149,7 @@ const Home = () => {
                     </DialogTitle>
                     <DialogContent>
                         <DialogContentText>
-                            Pilih sistem informasi yang ingin kamu kunjungi di beranda web ini. Contact support: <a href="wa.me/6281393789949" className='underline'>@seterangmerawang</a>
+                            Pilih sistem informasi yang ingin kamu kunjungi di beranda web ini. Contact support: <a href="https://wa.me/6281393789949" className='underline'>@seterangmerawang</a>
                         </DialogContentText>
                     </DialogContent>
                     <DialogActions>
