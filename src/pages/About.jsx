@@ -11,7 +11,7 @@ const About = () => {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Tentang Kimak - Portal Informasi</title>
+                <title>Tentang Kimak - Kimak+</title>
                 <link rel="canonical" href="https://kimak.seterangmerawang.web.id/" />
             </Helmet>
 

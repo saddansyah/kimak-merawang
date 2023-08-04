@@ -91,7 +91,7 @@ const PersyaratanBerkas = () => {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Persyaratan Berkas - Portal Informasi</title>
+                <title>Persyaratan Berkas - Kimak+</title>
                 <link rel="canonical" href="https://kimak.seterangmerawang.web.id/" />
             </Helmet>
 

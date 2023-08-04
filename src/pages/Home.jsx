@@ -18,6 +18,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import EmailIcon from '@mui/icons-material/Email';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import DescriptionIcon from '@mui/icons-material/Description';
+import ArticleIcon from '@mui/icons-material/Article';
 
 import CustomTooltip from '@/components/CustomTooltip';
 import Card from '@/components/Card';
@@ -42,6 +43,12 @@ const Home = () => {
             icon: <DescriptionIcon color='mainGreen' sx={{ fontSize: 64 }} />,
             description: 'Berisi mengenai persyaratan berkas yang harus dipenuhi, contohnya berkas Akta Kelahiran.',
             link: 'persyaratan-berkas'
+        },
+        {
+            title: 'Policy Brief Desa Kimak',
+            icon: <ArticleIcon color='mainGreen' sx={{ fontSize: 64 }} />,
+            description: 'Berisi mengenai ringkasan dari analisis terhadap suatu kebijakan di Desa Kimak',
+            link: 'policy-brief'
         },
     ]
 
@@ -99,8 +106,8 @@ const Home = () => {
             <img src={citySvg} ref={cityImg} alt="Ilustrasi Kota" className='h-[35vh] scale-125 w-full -z-30 md:hidden -bottom-20 fixed bg-gradient-to-t from-emerald-800 bg-clip-padding opacity-0 transition-transform' />
             <img src={mapSvg} alt="Peta Desa Kimak" className='absolute h-[35vh] md:h-[70vh] -z-20 top-24 opacity-30' />
             <section id="head" className='mb-5' data-aos="fade-up">
-                <h1 className="text-black font-semibold text-base text-center leading-none tracking-tight md:leading-normal" >Portal Sistem Informasi <br /> <span className='font-bold text-4xl gradient-green text-transparent bg-clip-text'>Desa Kimak</span></h1>
-                <p className='my-5 text-center text-gray-500' >Akses semua layanan digital Desa Kimak dalam satu genggaman 🌐</p>
+                <h1 className="text-black font-semibold text-base text-center leading-none tracking-tight md:leading-normal" >Kimak - Portal of Unified System <br /> <span className='font-bold md:text-6xl text-5xl gradient-green text-transparent bg-clip-text'>Kimak+</span></h1>
+                <p className='my-5 text-center text-gray-500' >Akses semua layanan digital Desa Kimak dalam satu genggaman menggunakan <span className='font-bold gradient-green text-transparent bg-clip-text'>Kimak+</span>🌐</p>
             </section>
             <section id="website" className='mb-12' data-aos="fade-up">
                 <CustomTooltip title={'kimak.bangka.go.id'} >
