@@ -20,7 +20,7 @@ const PolicyBrief = () => {
                 <link rel="canonical" href="https://kimak.seterangmerawang.web.id/" />
             </Helmet>
 
-            <div id="persyaratan-berkas" className="flex flex-col items-center">
+            <div id="policy-brief" className="flex flex-col items-center">
                 <h1 className="text-2xl font-semibold leading-none mb-12">Policy <span className="gradient-green text-transparent bg-clip-text font-extrabold">Brief</span></h1>
             </div>
         </>

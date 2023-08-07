@@ -156,7 +156,10 @@ const Home = () => {
                     </DialogTitle>
                     <DialogContent>
                         <DialogContentText>
-                            Pilih sistem informasi yang ingin kamu kunjungi di beranda web ini. Contact support: <a href="https://wa.me/6281393789949" className='underline'>@seterangmerawang</a>
+                            Pilih sistem informasi yang ingin kamu kunjungi di beranda web ini.
+
+                            <br /><br />
+                            Contact support: <a href="https://wa.me/6281393789949" className='underline text-blue-500'>@seterangmerawang</a>
                         </DialogContentText>
                     </DialogContent>
                     <DialogActions>
