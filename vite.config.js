@@ -7,8 +7,8 @@ const manifestPlugin = {
   registerType: 'prompt',
   includeAssets: ['logoKKN.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
   manifest: {
-    name: 'Portal Sistem Informasi Desa Kimak',
-    short_name: 'Portal Sistem Informasi Desa Kimak',
+    name: 'Kimak+',
+    short_name: 'Kimak+',
     description: 'Sebuah portal untuk integrasi berbagai sistem informasi di Desa Kimak',
     icons: [
       {
