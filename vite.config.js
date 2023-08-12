@@ -4,8 +4,12 @@ import { VitePWA } from 'vite-plugin-pwa';
 import react from '@vitejs/plugin-react';
 
 const manifestPlugin = {
-  registerType: 'prompt',
+  registerType: 'autoUpdate',
   includeAssets: ['logoKKN.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
+  workbox: {
+    skipWaiting: true,
+    cleanupOutdatedCaches: false
+  },
   manifest: {
     name: 'Kimak+',
     short_name: 'Kimak+',
