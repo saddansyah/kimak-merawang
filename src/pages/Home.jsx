@@ -19,6 +19,8 @@ import EmailIcon from '@mui/icons-material/Email';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import DescriptionIcon from '@mui/icons-material/Description';
 import ArticleIcon from '@mui/icons-material/Article';
+import MenuBookIcon from '@mui/icons-material/MenuBook';
+import MedicationIcon from '@mui/icons-material/Medication';
 
 import CustomTooltip from '@/components/CustomTooltip';
 import Card from '@/components/Card';
@@ -49,6 +51,18 @@ const Home = () => {
             icon: <ArticleIcon color='mainGreen' sx={{ fontSize: 64 }} />,
             description: 'Berisi mengenai ringkasan dari analisis terhadap suatu kebijakan di Desa Kimak',
             link: 'policy-brief'
+        },
+        {
+            title: 'E-Library Desa Kimak',
+            icon: <MenuBookIcon color='mainGreen' sx={{ fontSize: 64 }} />,
+            description: 'E-Library sederhana yang dikembangkan oleh Tim KKN PPM UGM 2023 Seterang Merawang',
+            link: 'https://e-library.seterangmerawang.web.id'
+        },
+        {
+            title: 'Daftar Obat Desa Kimak',
+            icon: <MedicationIcon color='mainGreen' sx={{ fontSize: 64 }} />,
+            description: 'Berisi mengenai daftar obat di Desa Kimak yang dikembangkan oleh Tim KKN PPM UGM 2023 Seterang Merawang',
+            link: 'https://obat.seterangmerawang.web.id'
         },
     ]
 
