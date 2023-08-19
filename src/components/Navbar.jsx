@@ -94,7 +94,7 @@ const Navbar = () => {
                         transformOrigin={{ horizontal: 'right', vertical: 'top' }}
                         anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
                     >
-                        <MenuList dense>
+                        <MenuList>
                             <MenuItem onClick={handleClose}>
                                 <NavLink to={navbar.home.link}>
                                     <div className="wrapper w-full flex flex-row space-x-3 items-center justify-between">
